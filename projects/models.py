@@ -8,5 +8,5 @@ class Project(models.Model):
     image = models.FilePathField(path="/img")
 
     def __str__(self):
-        return f"{self.title}, {self.description}, {self.technology}, {self.image}"
+        return f"{self.title},  {self.technology}
 
